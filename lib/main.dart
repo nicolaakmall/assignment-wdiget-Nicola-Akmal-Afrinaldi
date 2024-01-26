@@ -7,7 +7,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'api/services.dart';
 import 'package:http/http.dart' as http;
 
-
 void main() {
   runApp(const MyApp());
 }
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
-        primaryColor: Colors.pink,
+        primaryColor: Color.fromARGB(255, 236, 27, 55),
         appBarTheme: const AppBarTheme(
           color: Colors.blue,
           titleTextStyle: TextStyle(
